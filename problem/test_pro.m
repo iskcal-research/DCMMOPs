@@ -1,4 +1,5 @@
 function test_pro(prob)
+    % just for test
     x = [prob.lb:(prob.ub-prob.lb)/100:prob.ub];
     y = [prob.lb:(prob.ub-prob.lb)/100:prob.ub];
     u = [];
